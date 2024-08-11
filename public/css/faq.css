@@ -1,0 +1,20 @@
+.accordion-button {
+    color: #12296c; /* Change the text color of accordion buttons */
+}
+
+.accordion-body {
+    color: #12296c; /* Change the text color of accordion content */
+}
+
+.accordion-header {
+    border-bottom: 1px solid #12296c; /* Optional: Add border color to headers */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e6f2e1; /* Optional: Change background when expanded */
+    color: #12296c; /* Keep text color consistent */
+}
+
+h1.display-4 {
+    color: #12296c; /* Change the color of the FAQ title */
+}

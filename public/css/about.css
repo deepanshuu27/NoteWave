@@ -1,0 +1,108 @@
+:root{
+    --background-color: #FFC700;
+    --bs-primary-rgb:#12296c;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Unbounded', cursive;
+    font-weight: 800;
+}
+
+
+.btn{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 2rem;
+}
+
+    
+body{
+
+    font-family: 'Poppins' , sans-serif;
+    background-color:var(--background-color);
+    color: var(--bs-primary-rgb);
+    font-weight: 300;
+    font-size: 1.2rem;
+    background-image: url(../img/noise-bg.png);
+
+}
+
+
+
+.btn{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 2rem;
+}
+
+.btn-primary{
+    --bs-btn-color:#fff;
+    --bs-btn-bg:var(--bs-primary-rgb);
+    --bs-btn-border-color: var(--bs-primary-rgb);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0043a8;
+    --bs-btn-hover-border-color:#004388;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--bs-primary-rgb);
+    --bs-btn-active-border-color: var(--bs-primary-rgb);;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--bs-primary-rgb);;
+    --bs-btn-disabled-border-color: var(--bs-primary-rgb);
+}
+
+.btn-outline-primary{
+    --bs-btn-color:var(--bs-primary-rgb);
+    --bs-btn-border-color: var(--bs-primary-rgb);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #004388;
+    --bs-btn-hover-border-color:#004388;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--bs-primary-rgb);
+    --bs-btn-active-border-color: var(--bs-primary-rgb);;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--bs-primary-rgb);;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--bs-primary-rgb);
+    --bs-gradient:none;
+}
+
+
+.divs-layout {
+    display: flex; /* Enable flexbox for horizontal alignment */
+    justify-content: space-between; /* Space out the divs evenly */
+    align-items: flex-start; /* Align the top edges of the divs */
+    gap: 20px; /* Optional: Add spacing between the divs */
+    padding: 20px; /* Optional: Add padding around the container */
+}
+
+.divs-layout > div {
+    flex: 1; /* Ensure each div takes up equal space */
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    min-width: 200px; /* Add a minimum width to prevent shrinking */
+}
+
+
+
+.hover-effect {
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    font-weight: normal; /* Ensure normal weight by default */
+}
+
+.hover-effect:hover {
+    color: #12296c; /* Change text color on hover */
+    font-weight: bold; /* Make text bold on hover */
+}
+
+.hover-effect:active {
+    color: #12296c; /* Optional: Change color on click */
+    font-weight: bold; /* Ensure text remains bold when clicked */
+}
+
